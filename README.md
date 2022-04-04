@@ -22,18 +22,19 @@ End the program and close the output image windows.
 ## Program:
 python
 # Developed By:Valasareddy pallavi
-# Register Number:212221230059
+# Register Number:212221240059
 
 # To Read,display the image
-A=cv2.imread("animal.jpg",1)
-cv2.imshow("212221230014",A)
+import cv2
+A=cv2.imread("image.jpg",1)
+cv2.imshow("212221240059",A)
 cv2.waitKey(0)
 # To write the image
 
 import cv2
-A=cv2.imread("animal.jpg",1)
-cv2.imwrite("animal.jpg",A)
-cv2.imshow("212221230014",A)
+A=cv2.imread("image.jpg",1)
+cv2.imwrite("image.jpg",A)
+cv2.imshow("21222124059",A)
 cv2.waitKey(0)
 
 
@@ -41,49 +42,50 @@ cv2.waitKey(0)
 
 import random
 import cv2
-A=cv2.imread("animal.jpg",1)
+A=cv2.imread("image.jpg",1)
 for i in range(100):
     for j in range(A.shape[1]):
         A[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
-cv2.imshow("212221230014",A)
+cv2.imshow("212221240059",A)
 cv2.waitKey(0)
 
 # To access rows and columns
 import random
 import cv2
-A=cv2.imread("animal.jpg",1)
+A=cv2.imread("image.jpg",1)
 for i in range(100):
     for j in range(A.shape[1]):
         A[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
-cv2.imshow("212221230014",A)
+cv2.imshow("212221240059",A)
 cv2.waitKey(0)
 
 # To cut and paste portion of image
 import cv2
-a=cv2.imread('animal.jpg',1)
+a=cv2.imread('image.jpg',1)import cv2
+a=cv2.imread('image.jpg',1)
 tag = a[15:30,15:30]
 a[15:30,15:30] = tag
 cv2.imshow('animal',a)
 cv2.waitKey(0)
-cv2.destroyAllWindows(0)
+cv2.destroyAllWindows()
 
 
 ## Output:
 
 ### i) Read and display the image
-![output](./v1.png)
+![output](./a1.png)
 
 ### ii)Write the image
-![output](./v2.png)
+![output](./a2.png)
 
 ### iii)Shape of the Image
-![output](./v3.png)
+![output](./a3.png)
 
 ### iv)Access rows and columns
-![output](./v4.png)
+![output](./a4.png)
 
 ### v)Cut and paste portion of image
-![output](./v5.png)
+![output](./a5.png)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
