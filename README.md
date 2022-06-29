@@ -19,12 +19,13 @@ Use imshow(window_name, image) to display the image.
 Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
-```
+
+
 ## Program:
 python
 # Developed By:Valasareddy pallavi
 # Register Number:212221240059
-
+```
 # To Read,display the image
 import cv2
 A=cv2.imread("image.jpg",1)
@@ -70,7 +71,6 @@ cv2.imshow('animal',a)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-```
 ## Output:
 
 ### i) Read and display the image
