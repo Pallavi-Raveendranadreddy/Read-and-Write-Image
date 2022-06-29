@@ -7,6 +7,7 @@ iii) Cut and paste a small portion of the image.
 
 ## Software Required:
 Anaconda - Python 3.7
+```
 ## Algorithm:
 ### Step1:
 Choose an image and save it as a filename.jpg
@@ -18,7 +19,7 @@ Use imshow(window_name, image) to display the image.
 Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
-
+```
 ## Program:
 python
 # Developed By:Valasareddy pallavi
@@ -69,7 +70,7 @@ cv2.imshow('animal',a)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-
+```
 ## Output:
 
 ### i) Read and display the image
@@ -86,6 +87,6 @@ cv2.destroyAllWindows()
 
 ### v)Cut and paste portion of image
 ![output](./a5.png)
-
+``
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
